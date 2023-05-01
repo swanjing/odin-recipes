@@ -1,11 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
 .row {
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+    justify-content: center;
 }
 
 .main-content {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
     justify-content: center;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul#ratbullet li{
@@ -15,4 +44,31 @@ ul#ratbullet li{
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 30px;
+}
+
+ul#eggbullet li{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(img/egg.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
+}
+
+ul#cheesebullet li{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(img/cheese.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
+}
+
+ul#noodlebullet li{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(img/noodle.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
 }
